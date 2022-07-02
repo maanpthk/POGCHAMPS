@@ -92,7 +92,7 @@ h1{
 .register:hover{
   width:25%;
   height: 25vh;
-  background-image: url("images/register.jpg");
+  background: url("images/register.jpg");
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ h1{
 .rules:hover{
   width:25%;
   height: 25vh;
-  background-image: url("images/jett.jpg");
+  background: url("images/jett.jpg");
     background-size: cover;
   justify-content: center;
   align-items: center;
@@ -114,7 +114,7 @@ h1{
 .timeline:hover{
   width:25%;
   height: 25vh;
-  background-image: url("images/kj.jpg");
+  background: url("images/kj.jpg");
     background-size: cover;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@ h1{
 .fixtures:hover{
   width:25%;
   height: 25vh;
-  background-image: url("images/phnx.jpg");
+  background: url("images/phnx.jpg");
   background-size: cover;
   justify-content: center;
   align-items: center;
