@@ -1,0 +1,93 @@
+html,body{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.signup-form, .main-form{
+  font-family:'Source Serif Pro', serif ;
+  color:aqua;
+  height:100%;
+  display: table;
+  table-layout: fixed;
+  width:100%;
+  background: #0000;
+  text-align: center;
+
+}
+
+.player1{
+  vertical-align: middle;
+  display: table-cell;
+  background: url("images/jett.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 25%;
+
+}
+.player1:hover{
+  opacity: 1;
+   width:50%;
+}
+.player2{
+  vertical-align: middle;
+  display: table-cell;
+  background: url("images/kj.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  width: 25%;
+}
+.player2:hover{
+opacity: 1;
+ width:50%;
+}
+.player3{
+  vertical-align: middle;
+  display: table-cell;
+  background: url("images/phnx.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  width: 25%;
+}
+.player3:hover{
+opacity: 1;
+   width:50%;
+
+}
+.player4{
+  vertical-align: middle;
+  display: table-cell;
+  background: url("images/sova.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  width: 25%;
+}
+.player4:hover{
+  opacity: 1;
+   width:50%;
+}
+.player5{
+  vertical-align: middle;
+  display: table-cell;
+  background: url("images/viper.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  width: 25%;
+}
+.player5:hover{
+opacity: 1;
+ width:50%;
+}
+.signup-form:hover .player1, .player2, .player3, .player4, .player5 {
+  opacity: 0.3;
+}
+.btn{
+  margin-top: 5px;
+
+}

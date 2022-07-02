@@ -1,0 +1,37 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: aqua;
+}
+
+.regStarts{
+  height:100vh;
+  background: green;
+
+}
+.regStarts:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regEnds{
+  height:100vh;
+  background: red;
+}
+.ur1Starts{
+    height:100vh;
+background: blue;
+}
+
+.semis{
+    height:100vh;
+background: pink;
+}
+
+.finals{
+    height:100vh;
+background: yellow;
+}
