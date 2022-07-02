@@ -127,5 +127,17 @@ background-size: 100% 100%;
   font-weight: 80;
 
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .header{
+    padding:5rem;
+	  height: 50vh;
+    background: url("images/cover page.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+  }
+
+}
 
 
