@@ -94,8 +94,6 @@ background-size: 100% 100%;
 .register:hover{
   width:25%;
   height: 25vh;
-  background: url("images/register.jpg");
-  background-size: cover;
   color: #FF5D5D;
   text-align: center;
   font-weight: 80;
@@ -104,24 +102,18 @@ background-size: 100% 100%;
 .rules:hover{
   width:25%;
   height: 25vh;
-  background: url("images/jett.jpg");
-    background-size: cover;
   color: #FF5D5D;
   font-weight: 80;
 }
 .timeline:hover{
   width:25%;
   height: 25vh;
-  background: url("images/kj.jpg");
-    background-size: cover;
   color: #FF5D5D;
   font-weight: 80;
 }
 .fixtures:hover{
   width:25%;
   height: 25vh;
-  background: url("images/phnx.jpg");
-  background-size: cover;
   color: #FF5D5D;
   text-align: center;
   font-weight: 80;
@@ -137,7 +129,32 @@ background-size: 100% 100%;
     background-repeat: no-repeat;
 background-size: 100% 100%;
   }
+.parallax {
+    display: flex;
+    flex-direction: column;
+    background: url("images/cover.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .register:hover{
+    height:25%;
+  }
 
+  .fixtures:hover{
+    height:25%;
+}
+.timeline:hover{
+  height:25%;
+}
+.rules:hover{
+  height:25%;
+}
 }
 
 
