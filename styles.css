@@ -47,7 +47,7 @@ h1{
 }
 .parallax {
   display: flex;
-  background: url("images/cover.jpg");
+  background: url("images/sage.jpg");
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -130,17 +130,8 @@ background-size: 100% 100%;
 background-size: 100% 100%;
   }
 .parallax {
-    display: flex;
     flex-direction: column;
-    background: url("images/cover.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-  background-size: 100% 100%;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Source Serif Pro', serif;
+    
   }
   .register:hover{
     height:25%;
