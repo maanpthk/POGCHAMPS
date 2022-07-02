@@ -28,7 +28,6 @@ form p {
 form p,
 label[for="single"] {
   padding-bottom: 6px;
-  border-bottom: 2.5px solid #00BF8F;
 }
 
 /* HEADER */
@@ -121,4 +120,56 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: #00BF8F;
   cursor: pointer;
+}
+
+.team{
+  border-bottom: 2px solid #937DC2;
+  margin-bottom: 10px;
+  background: url("images/valocover.jpg");
+  background-size: cover;
+  color: #00BF8F;
+}
+
+.p1{
+  border-bottom: 2px solid #937DC2;
+  margin-bottom: 10px;
+  background: url("images/sova.jpg") no-repeat;
+  background-size: 100% 100%;
+  color: #00BF8F;
+}
+
+.p2{
+  margin-bottom: 10px;
+  border-bottom: 2px solid #937DC2;
+  background: url("images/jett.jpg") no-repeat;
+  background-size: 100% 100%;
+  color: #00BF8F;
+}
+
+.p3{
+  border-bottom: 2px solid #937DC2;
+  margin-bottom: 10px;
+  background: url("images/kj.jpg") no-repeat;
+  background-size: 100% 100%;
+  color: #00BF8F;
+}
+
+.p4{
+  border-bottom: 2px solid #937DC2;
+  margin-bottom: 10px;
+  background: url("images/phnx.jpg") no-repeat;
+  background-size: 100% 100%;
+color: #00BF8F;
+}
+
+.p5{
+  border-bottom: 2px solid #937DC2;
+  margin-bottom: 10px;
+  background: url("images/skye.jpg") no-repeat;
+background-size: 100% 100%;
+color: #00BF8F;
+}
+.drops{
+  border-bottom: 2px solid #937DC2;
+  color: #00BF8F;
 }
