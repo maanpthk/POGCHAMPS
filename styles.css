@@ -123,7 +123,7 @@ background-size: 100% 100%;
   /* For mobile phones: */
   .header{
     padding:5rem;
-	  height: 60vh;
+	  height: 30vh;
     background: url("images/cover page.jpg");
     position: relative;
     background-repeat: no-repeat;
