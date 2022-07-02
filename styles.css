@@ -46,7 +46,7 @@ h1{
 }
 .parallax {
   display: flex;
-  background-image: url("images/cover.jpg");
+  background: url("images/cover.jpg");
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
