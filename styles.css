@@ -120,63 +120,68 @@ h1{
 
 }
 .regarea{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
   width: 40%;
   height: 40vh;
-  background: url("images/vandal.jpg") no-repeat;
-  background-size: 100% 100%;
+  color: #00BF8F;
+  background: transparent;
   margin-right: 20px;
 }
 .fixarea{
+  color: #00BF8F;
+  font-family: 'Libre Baskerville', serif;
+    text-align: center;
   width: 40%;
   height: 40vh;
-  background: url("images/odin.jpg") no-repeat;
-  background-size: 100% 100%;
+  background: transparent;
   margin-left: 20px;
 }
 .rulesarea{
+  font-family: 'Libre Baskerville', serif;
+  color: #00BF8F;
+    text-align: center;
   width: 40%;
   height: 40vh;
-  background: url("images/bulldog.jpeg") no-repeat;
-  background-size: 100% 100%;
+background: transparent;
   margin-right: 20px;
 }
 .timearea{
+  font-family: 'Libre Baskerville', serif;
+  color: #00BF8F;
+    text-align: center;
   width: 40%;
   height: 40vh;
-  background: url("images/phantom.jpg") no-repeat;
-  background-size: 100% 100%;
+background: transparent;
   margin-left: 20px;
 }
 .register:hover{
   width:100%;
   height: 100%;
-
   background-size: cover;
   color: #FF5D5D;
   text-align: center;
   font-weight: 80;
 
+
 }
 .rules:hover{
   width:100%;
   height: 100%;
-
-    background-size: cover;
+  background-size: cover;
   color: #FF5D5D;
   font-weight: 80;
 }
 .timeline:hover{
   width:100%;
   height: 100%;
-
-    background-size: cover;
+  background-size: cover;
   color: #FF5D5D;
   font-weight: 80;
 }
 .fixtures:hover{
   width:100%;
   height: 100%;
-
   background-size: cover;
   color: #FF5D5D;
   text-align: center;
@@ -193,13 +198,10 @@ h1{
     background-repeat: no-repeat;
 background-size: 100% 100%;
   }
-	.reg, .fix, .time, .rule{
+  .reg, .fix, .time, .rule{
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
 
-  .regarea, .timearea, .rulesarea, .fixarea{
-    width: 50%;
-    height: 25vh;
-  }
+  
 }
