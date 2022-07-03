@@ -3,12 +3,17 @@ html,body{
   padding: 0;
   height:100%;
 }
+
+body{
+
+}
 .header{
   padding:5rem;
   background: url("images/cover page.jpg");
-  position: relative;
   background-repeat: no-repeat;
 background-size: 100% 100%;
+  position: relative;
+
 }
 .head{
   color: #F24C4C;
@@ -45,18 +50,41 @@ h1{
     visibility: hidden;
   }
 }
-.parallax {
-  display: flex;
-  background: url("images/sage.jpg");
-  min-height: 100%;
+.reg, .time, .rule, .fix {
+
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
- background-repeat: no-repeat;
-background-size: 100% 100%;
-  justify-content: space-around;
+  background-size: cover;
+}
+.reg{
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
-  font-family: 'Source Serif Pro', serif;
+  background-image: url("images/valo.jpg");
+  cursor: url("images/classic.png"), crosshair;
+}
+.time{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("images/valo.jpg");
+  cursor: url("images/frenzy.png"), crosshair;
+}
+.rule{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("images/valo.jpg");
+  cursor: url("images/ghost.png"), crosshair;
+}
+.fix{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url("images/valo.jpg");
+  cursor: url("images/sherrif.png"), crosshair;
 }
 .register{
   order:2;
@@ -91,29 +119,65 @@ background-size: 100% 100%;
   color: #FFC3C3;
 
 }
+.regarea{
+  width: 40%;
+  height: 40vh;
+  background: url("images/vandal.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin-right: 20px;
+}
+.fixarea{
+  width: 40%;
+  height: 40vh;
+  background: url("images/odin.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 20px;
+}
+.rulesarea{
+  width: 40%;
+  height: 40vh;
+  background: url("images/bulldog.jpeg") no-repeat;
+  background-size: 100% 100%;
+  margin-right: 20px;
+}
+.timearea{
+  width: 40%;
+  height: 40vh;
+  background: url("images/phantom.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 20px;
+}
 .register:hover{
-  width:25%;
-  height: 25vh;
+  width:100%;
+  height: 100%;
+
+  background-size: cover;
   color: #FF5D5D;
   text-align: center;
   font-weight: 80;
 
 }
 .rules:hover{
-  width:25%;
-  height: 25vh;
+  width:100%;
+  height: 100%;
+
+    background-size: cover;
   color: #FF5D5D;
   font-weight: 80;
 }
 .timeline:hover{
-  width:25%;
-  height: 25vh;
+  width:100%;
+  height: 100%;
+
+    background-size: cover;
   color: #FF5D5D;
   font-weight: 80;
 }
 .fixtures:hover{
-  width:25%;
-  height: 25vh;
+  width:100%;
+  height: 100%;
+
+  background-size: cover;
   color: #FF5D5D;
   text-align: center;
   font-weight: 80;
@@ -129,23 +193,4 @@ background-size: 100% 100%;
     background-repeat: no-repeat;
 background-size: 100% 100%;
   }
-.parallax {
-    flex-direction: column;
-    
-  }
-  .register:hover{
-    height:60%;
-  }
-
-  .fixtures:hover{
-    height:60%;
 }
-.timeline:hover{
-  height:60%;
-}
-.rules:hover{
-  height:60%;
-}
-}
-
-
