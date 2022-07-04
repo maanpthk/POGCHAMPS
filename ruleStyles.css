@@ -1,0 +1,53 @@
+body{
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+.time{
+  background: url("images/kjRules.jpg") no-repeat;
+  background-size: 100% 100%;
+  height:100vh;
+  overflow: auto;
+}
+.line{
+  position: relative;
+  cursor: url("images/frenzy.png"), crosshair;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 10%;
+    width: 40%;
+    background: #E8F9FD;
+}
+.linet{
+  margin-left: 50%;
+}
+.linem{
+  margin-left: 10%;
+}
+.liner{
+  margin-left: 50%;
+}
+.linep{
+  margin-left: 10%;
+}
+.maps{
+  background: url("images/maps.jpg") no-repeat;
+    background-size: 100% 100%;
+height:100vh;
+overflow: auto;
+}
+
+.results{
+  background: url("images/ggwp.png") no-repeat;
+    background-size: 100% 100%;
+height:100vh;
+overflow: auto;
+}
+
+.prize{
+  background: url("images/prize.webp") no-repeat;
+    background-size: 100% 100%;
+height:100vh;
+overflow: auto;
+}
