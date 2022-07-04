@@ -5,26 +5,29 @@ html,body{
 }
 
 body{
-
+  font-family: 'Helvetica', sans-serif;
+  color: white;
 }
 .header{
   padding:5rem;
-  background: url("images/cover page.jpg");
+  background: url("images/yoru_ult.jpg");
   background-repeat: no-repeat;
-background-size: 100% 100%;
+  background-size: 100% 100%;
   position: relative;
-
+  font-family: 'Oswald';
+  /* font-weight: bold; */
+  font-size: xx-large;
+  color: #ffffff;
+  text-align: center;
 }
 .head{
   color: #F24C4C;
-  font-family: monospace;
-
+  font-size: 2.5rem;
 }
 h1{
-  color: #F94C66;
-  font-family:'Source Serif Pro', serif ;
+  /* color: #F24C4C; */
   padding: 5px;
-  text-shadow: 2px 2px #FF0000;
+  font-size: 50px;
 }
 .loader{
 	position: fixed;
@@ -91,8 +94,6 @@ h1{
   background: url("images/cover page.jpg");
   background-size:cover;
   text-align: center;
-  color: #FFC3C3;
-
 
 }
 .rules{
@@ -100,7 +101,7 @@ h1{
   background: url("images/viper.jpg");
   background-size: cover;
   text-align: center;
-  color: #FFC3C3;
+
 
 }
 .timeline{
@@ -108,7 +109,7 @@ h1{
   background-size:cover;
   order: 3;
   text-align: center;
-  color: #FFC3C3;
+
 
 }
 .fixtures{
@@ -116,21 +117,21 @@ h1{
   background-size:cover;
   order: 3;
   text-align: center;
-  color: #FFC3C3;
+
 
 }
 .regarea{
-  font-family: 'Libre Baskerville', serif;
+
   text-align: center;
   width: 40%;
   height: 40vh;
-  color: #00BF8F;
+
   background: transparent;
   margin-right: 20px;
 }
 .fixarea{
-  color: #00BF8F;
-  font-family: 'Libre Baskerville', serif;
+
+
     text-align: center;
   width: 40%;
   height: 40vh;
@@ -138,8 +139,7 @@ h1{
   margin-left: 20px;
 }
 .rulesarea{
-  font-family: 'Libre Baskerville', serif;
-  color: #00BF8F;
+
     text-align: center;
   width: 40%;
   height: 40vh;
@@ -147,8 +147,8 @@ background: transparent;
   margin-right: 20px;
 }
 .timearea{
-  font-family: 'Libre Baskerville', serif;
-  color: #00BF8F;
+
+
     text-align: center;
   width: 40%;
   height: 40vh;
