@@ -10,7 +10,6 @@ body{
 .regStarts{
   height:100vh;
   background: green;
-
 }
 .regStarts:hover{
   display: flex;
