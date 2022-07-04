@@ -1,3 +1,4 @@
+
 body{
   margin:0;
   padding:0;
@@ -17,7 +18,19 @@ body{
     margin-bottom: 30px;
     height: 10%;
     width: 40%;
-    background: #E8F9FD;
+    color: #F4BFBF;
+    animation: fade-in-right ease 4s forwards;
+    text-align: center;
+}
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .linet{
   margin-left: 50%;
@@ -50,4 +63,22 @@ overflow: auto;
     background-size: 100% 100%;
 height:100vh;
 overflow: auto;
+}
+@media only screen and (max-width: 768px){
+  .line{
+    height: 10%;
+    width: 60%;
+  }
+  .linet{
+    margin-left: 30%;
+  }
+  .linem{
+    margin-left: 5%;
+  }
+  .liner{
+    margin-left: 30%;
+  }
+  .linep{
+    margin-left: 5%;
+  }
 }
