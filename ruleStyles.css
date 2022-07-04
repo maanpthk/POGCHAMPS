@@ -4,15 +4,7 @@ body{
   padding:0;
   height: 100%;
 }
-.container{
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-}
-section{
-height: 100vh;
-  scroll-snap-align: start;
-}
+
 .time{
   background: url("images/kjRules.jpg") no-repeat;
   background-size: 100% 100%;
@@ -27,9 +19,8 @@ height: 100vh;
     height: 10%;
     width: 40%;
     color: #F4BFBF;
-
-  animation: fade-in-right ease 4s forwards;
-  text-align: center;
+    animation: fade-in-right ease 4s forwards;
+    text-align: center;
 }
 @keyframes fade-in-right {
   from {
