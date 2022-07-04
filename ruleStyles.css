@@ -19,9 +19,8 @@ body{
     height: 10%;
     width: 40%;
     color: #F4BFBF;
-
-  animation: fade-in-right ease 4s forwards;
-  text-align: center;
+    animation: fade-in-right ease 4s forwards;
+    text-align: center;
 }
 @keyframes fade-in-right {
   from {
