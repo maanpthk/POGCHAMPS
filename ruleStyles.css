@@ -5,8 +5,24 @@ body{
   height: 100%;
 }
 
+.heading{
+  background-color: black;
+  position: relative;
+  font-family: 'Oswald';
+  /* font-weight: bold; */
+  font-size: xx-large;
+  color: #ff4655;
+  text-align: center;
+}
+
+h1{
+  /* color: #F24C4C; */
+  padding: 5px;
+  font-size: 50px;
+}
+
 .time{
-  background: url("images/kjRules.jpg") no-repeat;
+  background: url("images/ascent.jpg") no-repeat;
   background-size: 100% 100%;
   height:100vh;
   overflow: auto;
@@ -14,13 +30,13 @@ body{
 .line{
   position: relative;
   cursor: url("images/frenzy.png"), crosshair;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 10%;
-    width: 40%;
-    color: #F4BFBF;
-    animation: fade-in-right ease 4s forwards;
-    text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 10%;
+  width: 40%;
+  color: #F4BFBF;
+  animation: fade-in-right ease 4s forwards;
+  text-align: center;
 }
 @keyframes fade-in-right {
   from {
@@ -46,23 +62,23 @@ body{
 }
 .maps{
   background: url("images/maps.jpg") no-repeat;
-    background-size: 100% 100%;
-height:100vh;
-overflow: auto;
+  background-size: 100% 100%;
+  height:100vh;
+  overflow: auto;
 }
 
 .results{
-  background: url("images/ggwp.png") no-repeat;
-    background-size: 100% 100%;
-height:100vh;
-overflow: auto;
+  background: url("images/split.jpg") no-repeat;
+  background-size: 100% 100%;
+  height:100vh;
+  overflow: auto;
 }
 
 .prize{
   background: url("images/prize.webp") no-repeat;
-    background-size: 100% 100%;
-height:100vh;
-overflow: auto;
+  background-size: 100% 100%;
+  height:100vh;
+  overflow: auto;
 }
 @media only screen and (max-width: 768px){
   .line{
