@@ -3,15 +3,18 @@ body{
   margin:0;
   padding:0;
   height: 100%;
+  font-family: 'Helvetica', sans-serif;
+  color: white;
 }
 
 .heading{
-  background-color: black;
+  padding: 2.5rem;
+  background-image:url("images/guns.jpg");
+  background-size: 100% 100%;
   position: relative;
   font-family: 'Oswald';
-  /* font-weight: bold; */
   font-size: xx-large;
-  color: #ff4655;
+  color: white;
   text-align: center;
 }
 
@@ -34,7 +37,6 @@ h1{
   margin-bottom: 30px;
   height: 10%;
   width: 40%;
-  color: #F4BFBF;
   animation: fade-in-right ease 4s forwards;
   text-align: center;
 }
