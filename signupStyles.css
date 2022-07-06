@@ -1,6 +1,6 @@
 body {
   background: #3B7577;
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   letter-spacing: 0.5px;
 }
 *:focus {
@@ -15,9 +15,15 @@ body {
 
 /* TYPOGRAPHY */
 h1 {
-  font-size: 48px;
-  font-family: 'Libre Baskerville', serif;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  font-family: 'Oswald';
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
 }
 form p {
   font-family: 'Libre Baskerville', serif;
@@ -33,9 +39,9 @@ label[for="single"] {
 /* HEADER */
 header {
   position: relative;
-  padding: 180px 0px 30px;
+  padding: 7.5rem;
   color: #fff;
-  background: url("images/cover.jpg") no-repeat;
+  background: url("images/elderflame-min.jpg") no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
 }
