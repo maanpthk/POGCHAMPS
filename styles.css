@@ -94,27 +94,23 @@ h1{
   order:2;
   background-size:cover;
   text-align: center;
-  background: url("images/cover page.jpg") no-repeat;
-  background-size: 100% 100%;
+  background: url("images/jett_main.jpg") no-repeat;
+  color: black;
 }
 .rules{
   order:1;
-  background: url("images/viper.jpg");
+  background: url("images/cypher.jpeg");
   background-size: cover;
   text-align: center;
-
-
 }
 .timeline{
-  background: url("images/skye.jpg");
+  background: url("images/neon.jpeg");
   background-size:cover;
   order: 3;
   text-align: center;
-
-
 }
 .fixtures{
-  background: url("images/sage.jpg");
+  background: url("images/sage.jpeg");
   background-size:cover;
   order: 3;
   text-align: center;
@@ -123,7 +119,7 @@ h1{
 }
 .regarea{
   position: relative;
-  background: url("images/cover page.jpg") no-repeat;
+  background: url("images/jett_main.jpg") no-repeat;
   background-size: 100% 100%;
   text-align: center;
   width: 40%;
@@ -131,44 +127,42 @@ h1{
   margin-right: 20px;
 }
 .fixarea{
-background: url("images/sage.jpg") no-repeat;
-background-size: 100% 100%;
-position: relative;
-    text-align: center;
+  background: url("images/sage.jpeg") no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  text-align: center;
   width: 40%;
   height: 40vh;
   margin-left: 20px;
 }
 .rulesarea{
   position: relative;
-  background: url("images/vipers.jpg") no-repeat;
+  background: url("images/cypher.jpeg") no-repeat;
   background-size: 100% 100%;
-    text-align: center;
+  text-align: center;
   width: 40%;
   height: 40vh;
   margin-right: 20px;
 }
 .timearea{
   position: relative;
-background: url("images/skyes.jpg") no-repeat;
-background-size: 100% 100%;
-    text-align: center;
+  background: url("images/neon.jpeg") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
   width: 40%;
   height: 40vh;
   margin-left: 20px;
 }
 .register:hover{
-  width:100%;
+  width: 100%;
   height: 100%;
   background-size: cover;
   color: #FF5D5D;
   text-align: center;
   font-weight: 80;
-
-
 }
 .rules:hover{
-  width:100%;
+  width: 100%;
   height: 100%;
   background-size: cover;
   color: #FF5D5D;
