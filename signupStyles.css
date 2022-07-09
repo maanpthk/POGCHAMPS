@@ -2,6 +2,7 @@ body {
   background: #3B7577;
   font-family: Helvetica, sans-serif;
   letter-spacing: 0.5px;
+  
 }
 *:focus {
   outline-color: #00BF8F;
@@ -26,7 +27,6 @@ h2 {
   font-size: 2rem;
 }
 form p {
-  font-family: 'Libre Baskerville', serif;
   font-size: 18px;
   margin: 50px 0 20px;
   line-height: 1.6;
@@ -40,7 +40,6 @@ label[for="single"] {
 header {
   position: relative;
   padding: 7.5rem;
-  color: #fff;
   background: url("images/elderflame-min.jpg") no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -48,7 +47,7 @@ header {
 
 /* SECTION */
 section {
-  background: #ffffff;
+  background-image: url(images/signup_bg.jpg);
   padding: 20px 0;
 }
 
@@ -63,7 +62,6 @@ select {
 label[for="single"]{
   display: block;
   margin-bottom: 20px;
-  font-family: 'Libre Baskerville', serif;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -92,7 +90,7 @@ input[type="text"]{
 }
 
 .input-wrap.select-box:hover select {
-   color: #fff;
+  color: #fff;
 }
 
 textarea {
@@ -101,7 +99,6 @@ textarea {
 select {
   border: none;
   background: transparent;
-  font-family: 'Lato', sans-serif;
   letter-spacing: 0.5px;
   height: 34px;
   width: 100%;
@@ -114,7 +111,6 @@ input[type="submit"] {
   margin: 20px auto 50px;
   height: 34px;
   width: 125px;
-  font-family: 'Lato', sans-serif;
   letter-spacing: 0.5px;
   background: #008463;
   border: 0px solid;
@@ -133,47 +129,52 @@ input[type="submit"]:hover {
   margin-bottom: 10px;
   background: url("images/valocover.jpg");
   background-size: cover;
-  color: #00BF8F;
+  color: white;
 }
 
 .p1{
   border-bottom: 2px solid #937DC2;
   margin-bottom: 10px;
-  background: url("images/sova.jpg") no-repeat;
-  background-size: 100% 100%;
-  color: #00BF8F;
+  background: url("images/1098684.png") no-repeat;
+  background-position: 100%;
+  background-size: 50% 100%;
+  color: white;
 }
 
 .p2{
   margin-bottom: 10px;
   border-bottom: 2px solid #937DC2;
   background: url("images/jett.jpg") no-repeat;
-  background-size: 100% 100%;
-  color: #00BF8F;
+  background-position: 100%;
+  background-size: 50% 100%;
+  color: white;
 }
 
 .p3{
   border-bottom: 2px solid #937DC2;
   margin-bottom: 10px;
   background: url("images/kj.jpg") no-repeat;
-  background-size: 100% 100%;
-  color: #00BF8F;
+  background-position: 100%;
+  background-size: 50% 100%;
+  color: white;
 }
 
 .p4{
   border-bottom: 2px solid #937DC2;
   margin-bottom: 10px;
   background: url("images/phnx.jpg") no-repeat;
-  background-size: 100% 100%;
-color: #00BF8F;
+  background-position: 100%;
+  background-size: 50% 100%;
+  color: white;
 }
 
 .p5{
   border-bottom: 2px solid #937DC2;
   margin-bottom: 10px;
   background: url("images/skye.jpg") no-repeat;
-background-size: 100% 100%;
-color: #00BF8F;
+  background-position: 100%;
+  background-size: 50% 100%;
+  color: white;
 }
 .drops{
   border-bottom: 2px solid #937DC2;
